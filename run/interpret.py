@@ -3,4 +3,4 @@ from rasa_nlu.model import Metadata, Interpreter
 from train import model_directory
 
 metadata = Metadata.load(model_directory)
-interpret = Interpreter.load(metadata, RasaNLUConfig("config_spacy.json"))
+interpret = Interpreter.load(metadata, RasaNLUConfig("../config_spacy.json"))
